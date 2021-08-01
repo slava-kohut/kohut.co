@@ -1,4 +1,4 @@
-baseURL                          = "https://slava-kohut.github.io/kohut.co/"   # Your domain name. Must end with "/"
+baseURL                          = "https://kohut.co/"   # Your domain name. Must end with "/"
 theme                            = "introduction"
 DefaultContentLanguage           = "en"                    # Default language for multilingual sites
 # disqusshortname                 = ""                     # https://gohugo.io/content-management/comments
