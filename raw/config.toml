@@ -24,23 +24,23 @@ DefaultContentLanguage           = "en"                    # Default language fo
         allPostsArchiveFormat    = true                    # show all posts in an archive format
         numberOfProjectsToShow   = 0                   # Maximum number of projects to show on home page. Unset or comment out to show all projects
         localTime                = true                    # Show your current local time in contact section
-        timeZone                 = "America/Toronto"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+        timeZone                 = "America/Denver"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
         timeFormat               = "en-UK"                 # Language specific format to use
     [params.projects]
         useTwoColumns            = true                     # Use a layout with two columns instead of three
 
 # Share buttons on blog post pages
     [params.share]
-        twitter                  = true
+        twitter                  = false
         facebook                 = false
         pinterest                = false
   
 # "fab" includes social network icons: https://fontawesome.com/icons?d=gallery&s=brands&m=free
 # "fas" includes solid style icons: https://fontawesome.com/icons?d=gallery&s=solid&m=free
-    [[params.social]]
-        url   = "https://twitter.com/" # TODO: change link to twitter
-        icon  = "twitter" 
-        icon_pack = "fab"
+#    [[params.social]]
+#        url   = "https://twitter.com/" # TODO: change link to twitter
+#        icon  = "twitter" 
+#        icon_pack = "fab"
     [[params.social]]
         url   = "https://www.linkedin.com/in/slavakohut/"
         icon  = "linkedin-in" 
@@ -91,8 +91,8 @@ DefaultContentLanguage           = "en"                    # Default language fo
         weight           = 0
         title            = "Slava Kohut"
         [languages.en.params]
-            description  = "Website Description" # max 160 characters, search results
-            footerText   = "2021 &#169; Slava Kohut" # default footer text
+            description  = "Slava Kohut" # max 160 characters, search results
+            footerText   = "2022 &#169; Slava Kohut" # default footer text
 
     [languages.ru]
         languageName     = "Русский"
@@ -102,6 +102,6 @@ DefaultContentLanguage           = "en"                    # Default language fo
         title            = "Слава Koгут"
         [languages.ru.params]
             dateFormat   = "2. January 2006"
-            description  = "Описание сайта" # max 160 characters, search results
-            footerText   = "2021 &#169; Слава Когут" # default footer text
+            description  = "Слава Когут" # max 160 characters, search results
+            footerText   = "2022 &#169; Слава Когут" # default footer text
 

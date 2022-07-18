@@ -13,7 +13,7 @@ shell: ## enter the virtual environment
 
 install: ## install or update dependencies
 	pipenv install --dev
-	npm install
+	# npm install
 	npm install -g markdownlint-cli
 	pre-commit install --install-hooks
 
